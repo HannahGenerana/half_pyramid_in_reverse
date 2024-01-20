@@ -13,5 +13,7 @@ while line_asterisk >= tree:
         print ('*',end='')
 
 # subtract the value of the variable that create a line of asterisk from 1 to reduce the value it will print
+    line_asterisk = line_asterisk - 1
 
 # make an empty print to start the next print at a new line
+    print ("")
